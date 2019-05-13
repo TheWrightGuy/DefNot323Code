@@ -1,6 +1,8 @@
 #ifndef PERMUTE_H
 #define PERMUTE_H
 
-void permute(char *str, int lowerBound, int upperBound, int CR, int LI);
+#include "main.h"
+
+void permute(ISR *array, int size, int lowerBound, int upperBound, int CR, int LI);
 
 #endif//PERMUTE_H

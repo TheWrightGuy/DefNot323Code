@@ -27,6 +27,7 @@ int main(){
     ISR array[size];
     for (i = 0; i < size; i++){
         array[i] = getISR(i);
+        array[i].interruptNumber = i;
     }
 
     // Calculate an acceptable schedule

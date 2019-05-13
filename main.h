@@ -12,8 +12,9 @@
  */
 
 typedef struct {
-    int period;     // The length of time before the ISR needs to be invoked again
-    int runtime;    // The length of the ISR's runtime
+    int period;         // The length of time before the ISR needs to be invoked again
+    int runtime;        // The length of the ISR's runtime
+    int interruptNumber; // ISRx
 } ISR;
 
 
